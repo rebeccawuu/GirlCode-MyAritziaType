@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ARITZIA FASHION QUIZ</title>
+  <style>
+    /* Add CSS styles for the quiz */
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .quiz {
+      width: 50%;
+      margin: 0 auto;
+    }
+
+    .question {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .answers {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .answers li {
+      margin-bottom: 10px;
+    }
+
+    .answers input[type="radio"] {
+      margin-right: 5px;
+    }
+
+    .submit-button {
+      background-color: blue;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="quiz">
+    <form action="/quiz" method="GET" >
+
+      <div class="question">If we opened your closet, what color palette would we mostly see?</div>
+      <ul class="answers2">
+        <input type="radio" name="answer2" value="basics"> Basics,
+          such as navy, white, khaki, charcoal, or brown <br/>
+        <input type="radio" name="answer2" value="Black and neutrals"> Black and neutrals<br/>
+        <input type="radio" name="answer2" value="Rainbow"> A rainbow of colors<br/>
+        <input type="radio" name="answer2" value="Earth tones"> Earth tones <br/></input>
+      </ul>
+      
+      <div class="question">What do you find most of in your closet?</div>
+      <ul class="answers2">
+        <input type="radio" name="answer2" value="Sweaters"> Sweaters and hoodies <br/>
+        <input type="radio" name="answer2" value="Dresses"> Dresses<br/>
+        <input type="radio" name="answer2" value="Accessories"> Accessories!!<br/>
+        <input type="radio" name="answer2" value="Gym"> Gym wear 24/7 <br/></input>
+      </ul>
+      <div class="question">It's date night! What outfit are you picking?</div>
+      <ul class="answers3">
+        <input type="radio" name="answer3" value="Sweatpants"> Sweatpants all the way<br/>
+        <input type="radio" name="answer3" value="Dress"> Cute dress with heels<br/>
+        <input type="radio" name="answer3" value="Shorts"> Denim shorts and cami top<br/>
+        <input type="radio" name="answer3" value="Gym"> 24/7 Straight from the gym<br/>
+      </ul>
+      <div class="question">When you walk into a crowded room, what would you prefer to do?
+      </div>
+      <ul class="answers4">
+       <input type="radio" name="answer" value="blend in"> Blend in<br/>
+        <input type="radio" name="answer4" value="be in control, exude power"> Be in control, exude power<br/>
+        <input type="radio" name="answer4" value="be animated"> Be animated<br/>
+        <input type="radio" name="answer4" value="seem natural and easygoing
+"> Seem natural and easygoing<br/>
+        <input type="radio" name="answer4" value="make a statement
+"> Make a statement<br/>
+      </ul>
+      <div class="question">How would your friends describe you?
+      </div>
+      <ul class="answers5">
+        <input type="radio" name="answer5" value="traditional and proper"> Traditional and proper<br/>
+        <input type="radio" name="answer5" value="sharp and direct"> Sharp and direct<br/>
+        <input type="radio" name="answer5" value="playful and spirited"> Playful and spirited<br/>
+        <input type="radio" name="answer5" value="relaxed and liberal"> Relaxed and liberal<br/>
+        <input type="radio" name="answer5" value="innovative and forward thinking"> Innovative and forward thinking<br/>
+      </ul>
+      <input class="submit-button" type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+
+</html>
